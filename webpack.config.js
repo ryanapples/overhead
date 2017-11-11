@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/prototypes/redux-overhead.js',
+    entry: './src/app.js',
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js'
@@ -10,7 +10,7 @@ module.exports = {
         rules: [{
             loader: 'babel-loader',
             test: /\.js$/,
-            exclude: /node_modules/
+            exclude: /node_m dodules/
         }, {
             test: /\.s?css$/,
             use: [
