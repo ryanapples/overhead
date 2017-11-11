@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/app.js',
+    entry: './src/prototypes/redux-overhead.js',
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js'
