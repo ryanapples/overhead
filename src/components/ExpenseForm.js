@@ -10,7 +10,8 @@ export default class ExpenseForm extends React.Component {
     state = {
         description: '',
         note: '',
-        amount: ''
+        amount: '',
+        createdAt: moment()
     };
     onDescriptionChange = (e) => {
         const description = e.target.value;
@@ -43,6 +44,12 @@ export default class ExpenseForm extends React.Component {
                         placeholder="Amount"
                         value={this.state.amount}
                         onChange={this.onAmountChange}
+                    />
+                    <SingleDatePicker 
+                        date
+                        onDateChange
+                        focused
+                        onFocusChange
                     />
                     <textarea
                         placeholder="Add a note for your expense (optional)"
