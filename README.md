@@ -5,16 +5,16 @@ Month-to-month expense tracker.
 ### Technologies
 - React.js
 - Redux
-- Firebase
+- Firebase (in development)
 - Webpack
 - Babel
 - SCSS
 
 ### Deployment Tools
-- Express
-- Heroku
+- Express (in development)
+- Heroku (in development)
 
 ### Testing Tools
-- Jest
-- Enzyme
+- Jest (in development)
+- Enzyme (in development)
 
